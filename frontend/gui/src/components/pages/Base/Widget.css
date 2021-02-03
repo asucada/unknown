@@ -1,0 +1,17 @@
+table {
+    border: none;
+    border-collapse: collapse;
+    background-color: #495e7b;
+    justify-content: safe space-around;
+}
+
+td {
+    padding: 42px;
+    border: none;
+    text-align: center;
+}
+
+xob{
+}
+
+

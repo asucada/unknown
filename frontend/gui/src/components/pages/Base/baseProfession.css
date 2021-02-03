@@ -1,0 +1,105 @@
+/*Cover art from BaseCover.js */
+.base-container {
+    background: url('jpg-7.jpg')
+    center center/cover no-repeat;
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box shadow: inset 0 0  1000px rgba(0,0,0,0.2);
+    object-fit: contain;
+}
+
+.base-container > h1 {
+    color: #fff;
+    font-size: 75px;
+    font-weight: 900;
+    margin-top: -200px;
+    text-shadow: -3px 1px 0 #000,
+                  3px 1px 0 #000,
+                 3px -1px 0 #000,
+                -3px -1px 0 #000;
+}
+
+.base-container > p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+    text-shadow: -2px 1px 0 #000,
+                  2px 1px 0 #000,
+                 2px -1px 0 #000,
+                -2px -1px 0 #000;
+}
+
+/*Courses, Projects and Job section in BaseNavBar.js*/
+.base-nav{
+    list-style-type: none;
+    ul li{
+	     list-style-type: none;
+	     margin-right: 50px;
+	     float: left;
+	     }
+}
+
+.base-nav-extend {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 150px;
+    text-align: right;
+}
+
+.base-item {
+    display: inline-block;
+    color: #fff;
+    font-size: 52px;
+    font-weight: 900;
+    margin-top: 62px;
+    margin-right: 222px;
+    padding: 20px;
+    text-shadow: -2px 1px 0 #000,
+                  2px 1px 0 #000,
+                 2px -1px 0 #000,
+                -2px -1px 0 #000;
+}
+
+
+
+
+.base {
+    text-align: center;
+}
+
+.base__title {
+    color: #e3e3e3;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.62px;
+    padding: 40px;
+    text-shadow: -2px 1px 0 #000,
+                  2px 1px 0 #000,
+                 2px -1px 0 #000,
+                -2px -1px 0 #000;
+}
+
+.base__section button {
+      width: 100px;
+      padding: 1rem 0rem;
+      background: #3351ff;
+      border: solid;
+      color: #000;
+      cursor: pointer;
+      border-radius:20px;
+      font-weight: bolder;
+      margin: 42px;
+}
+
+
+
+
+

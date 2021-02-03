@@ -1,0 +1,14 @@
+table {
+    padding: 20px 20px 20px 20px;
+    border: none;
+    border-collapse: collapse;
+    background-color: #495e7b;
+
+}
+
+td {
+    padding: 22px;
+    border: none;
+    text-align: center;
+}
+
